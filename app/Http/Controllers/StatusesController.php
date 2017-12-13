@@ -17,11 +17,12 @@ class StatusesController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-           'content' => 'required|max:140'
+           'text_content' => 'required|max:140'
         ]);
 
         Auth::user()->statuses()->create([
-           'content' => $request->content
+           //'content' => $request->content
+            'content' => $request->text_content
         ]);
         return redirect()->back();
     }
