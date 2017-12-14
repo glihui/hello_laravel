@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('908070584@qq.com'),
+    'username' => env('MAIL_USERNAME'),
 
-    'password' => env('krfowmuifprabdgd'),
+    'password' => env('MAIL_PASSWORD'),
 
     /*
     |--------------------------------------------------------------------------
