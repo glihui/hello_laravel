@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', '908070584@qq.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'a330220239@qq.com'),
         'name' => env('MAIL_FROM_NAME', 'TestMail'),
     ],
 
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'username' => env('908070584@qq.com'),
+    'username' => env('a330220239@qq.com'),
 
     'password' => env('krfowmuifprabdgd'),
 
